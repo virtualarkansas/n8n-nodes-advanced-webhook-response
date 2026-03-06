@@ -1,0 +1,17 @@
+{
+	"node": "n8n-nodes-advanced-webhook-response.advancedRespondToWebhook",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"subcategories": {
+		"Core Nodes": ["Flow"]
+	},
+	"alias": [
+		"webhook",
+		"response",
+		"html",
+		"iframe",
+		"sandbox",
+		"respond"
+	]
+}
