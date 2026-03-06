@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-advanced-webhook-response",
-	"version": "0.1.0",
+	"version": "0.1.0-beta.2",
 	"description": "Advanced Respond to Webhook node for n8n with HTML iframe wrapping, configurable sandbox/device permissions, CORS helpers, security headers, and cookie management",
 	"license": "MIT",
 	"homepage": "https://github.com/virtualarkansas/n8n-nodes-advanced-webhook-response",
@@ -27,6 +27,7 @@
 	"n8n": {
 		"n8nNodesApiVersion": 1,
 		"nodes": [
+			"dist/nodes/AdvancedWebhook/AdvancedWebhook.node.js",
 			"dist/nodes/AdvancedRespondToWebhook/AdvancedRespondToWebhook.node.js"
 		],
 		"credentials": []

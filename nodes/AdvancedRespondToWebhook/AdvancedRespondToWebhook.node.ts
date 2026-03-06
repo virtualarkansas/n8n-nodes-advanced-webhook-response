@@ -22,11 +22,14 @@ import { wrapInIframe } from './utils/iframeWrapper';
 import { buildCorsHeaders, buildSecurityHeaders, buildCookieHeaders } from './utils/headerBuilders';
 import { looksLikeHtml } from './utils/htmlDetection';
 
+const ADVANCED_WEBHOOK_NODE_TYPE = 'n8n-nodes-advanced-webhook-response.advancedWebhook';
+
 const ALLOWED_WEBHOOK_NODE_TYPES = [
 	WEBHOOK_NODE_TYPE,
 	FORM_TRIGGER_NODE_TYPE,
 	WAIT_NODE_TYPE,
 	CHAT_TRIGGER_NODE_TYPE,
+	ADVANCED_WEBHOOK_NODE_TYPE,
 ];
 
 export class AdvancedRespondToWebhook implements INodeType {
